@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x' # Sesuaikan dengan versi Python kamu
+          python-version: '3.12.3' # Sesuaikan dengan versi Python kamu
 
       - name: Install uv (karena kamu menggunakan uv.lock)
         run: pip install uv
